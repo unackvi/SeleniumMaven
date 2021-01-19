@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="TestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.actitime.test.LoginLogOutTest">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+  <test thread-count="5" name="TestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.test.LoginLogOutTest">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" name="TestEdge(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.actitime.test.LoginLogOutTest">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </classes>
+  </test> <!-- TestEdge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

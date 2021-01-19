@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser method of Basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser method of Basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser method of Basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[login method of test class is executing]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+    </line>
+    <line>
+      <![CDATA[login method of test class is executing]]>
+    </line>
+    <line>
+      <![CDATA[login method of test class is executing]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14524" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:54Z">
+    <groups>
+    </groups>
+    <test name="TestFirefox" duration-ms="11713" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:51Z">
+      <class name="com.actitime.test.LoginLogOutTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.test.LoginLogOutTest@370736d9]" name="openBrowser" is-config="true" duration-ms="11056" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser method of Basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@370736d9]" name="loginToApp" is-config="true" duration-ms="641" started-at="2021-01-19T01:24:50Z" finished-at="2021-01-19T01:24:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.test.LoginLogOutTest@370736d9]" name="login" duration-ms="3" started-at="2021-01-19T01:24:51Z" finished-at="2021-01-19T01:24:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login method of test class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.test.LoginLogOutTest@370736d9]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:51Z" finished-at="2021-01-19T01:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@370736d9]" name="logoutOfApp" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:51Z" finished-at="2021-01-19T01:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="14374" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:54Z">
+      <class name="com.actitime.test.LoginLogOutTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.test.LoginLogOutTest@29ca901e]" name="openBrowser" is-config="true" duration-ms="14086" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser method of Basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@29ca901e]" name="loginToApp" is-config="true" duration-ms="277" started-at="2021-01-19T01:24:53Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.test.LoginLogOutTest@29ca901e]" name="login" duration-ms="3" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login method of test class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@29ca901e]" name="logoutOfApp" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.test.LoginLogOutTest@29ca901e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </test> <!-- TestChrome -->
+    <test name="TestEdge" duration-ms="14524" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:54Z">
+      <class name="com.actitime.test.LoginLogOutTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.test.LoginLogOutTest@5abca1e0]" name="openBrowser" is-config="true" duration-ms="14197" started-at="2021-01-19T01:24:39Z" finished-at="2021-01-19T01:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser method of Basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@5abca1e0]" name="loginToApp" is-config="true" duration-ms="318" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod: loginToApp of basetest class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.test.LoginLogOutTest@5abca1e0]" name="login" duration-ms="1" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login method of test class is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.actitime.test.LoginLogOutTest@5abca1e0]" name="logoutOfApp" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.test.LoginLogOutTest@5abca1e0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-01-19T01:24:54Z" finished-at="2021-01-19T01:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.test.LoginLogOutTest -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite -->
+</testng-results>
